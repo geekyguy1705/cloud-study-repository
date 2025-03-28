@@ -420,4 +420,4 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :editor/preferred-pasting-file? false
- :publishing/all-pages-public? false}
+ :publishing/all-pages-public? true}
