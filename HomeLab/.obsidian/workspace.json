@@ -70,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd6beb2f6a246e29",
+  "active": "0715cd11d5f89e8a",
   "lastOpenFiles": [
     "Welcome.md"
   ]
