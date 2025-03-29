@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "411eafddaa430f2a",
+        "id": "76b866ddadf03fe0",
         "type": "tabs",
         "children": [
           {
-            "id": "2c046b5be1863f52",
+            "id": "b7cdfe02eca4aefc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "HomeLab/.gitignore",
+                "bFile": "HomeLab/.gitignore",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore"
             }
           }
         ]
@@ -136,21 +140,40 @@
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": false,
-                "showSearch": false,
+                "followCursor": true,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "f21537ef0b523332",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "2db1e05707013274",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 430.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,19 +183,45 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-daily-notes-viewer:Open Viewer": false
     }
   },
-  "active": "74257c815f968579",
+  "active": "b7cdfe02eca4aefc",
   "lastOpenFiles": [
-    "Untitled.md",
-    "courses",
-    "Ideas",
-    "Things to do today.md",
+    "Untitled.canvas",
+    "DailyPlan/DailyPlanViewer.md",
+    "DailyPlan/Viewer.md",
+    "Templates/DailyNote.md",
+    "!!Planner.md",
+    "Templates/Person.md",
+    "Notes/People (No or Less current contact)/Details.md",
+    "DailyPlan/2025-03-29.md",
+    "DailyPlan/2025-03-31.md",
+    "DailyPlan/2025-03-30.md",
+    "!!Daily todos.md",
     "2025-03-29.md",
-    "daily",
-    "attachments",
-    "posts",
+    "DailyPlan",
+    "Untitled Kanban.md",
+    "Templates/Untitled.md",
+    "Templates",
+    "Notes/Work",
+    "Notes/Travel",
+    "Notes/PersonalProjects (Future potential ideas)",
+    "Notes/Blog/PublishingWorkflow.md",
+    "Notes/People (No or Less current contact)",
+    "Notes/Misc",
+    "Notes/Investing",
+    "Notes/Gym",
+    "Notes/Blog/Ideas/Ideas.md",
+    "Notes/Blog/Ideas/Drafts/Trash",
+    "Untitled.md",
+    "Journal.md",
+    "Things to do today.md",
     "Welcome.md"
   ]
 }
