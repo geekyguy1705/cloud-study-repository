@@ -12,7 +12,18 @@
 
 ## ETCD in Kubernetes
 
- 
+- Stores information about the cluster such as -
+	- Nodes
+	- Pods
+	- Configs
+	- Secrets
+	- Accounts
+	- Roles
+	- Bindings
+	- Others
+	- Every Change done to nodes, pods, configs, etc is updated in the etcd db. Only after it is updated in the ETCD, the change is considered to be complete.
+	- Kubeadm deploys etcd database as a pod in the kube-system namespace and can be accessed using etcdctl inside the etcd-master pod
+	- ETCD in HA environment - initial cluster configuration needs information about all the etcd instances. Examples of HA Kubernetes cluster setups - ![[02 Kubeadm HA topology - stacked etcd.png| Kubeadm HA topology - stacked etcd]] ![[03 Kubeadm HA topology - external etcd.png| Kubeadm HA topology - external etcd]]
 
 
 
